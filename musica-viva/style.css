@@ -160,3 +160,112 @@ a {
 }
 
 
+/* styles for poster3 */
+
+.poster3 { 
+  background-color:#D3D2CD;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: left;
+background color: #D2D1CD;
+ }
+
+.poster3 .top-left{ 
+  margin-left: 1%;
+
+ }
+
+.poster3 .bottom-left { 
+
+    font-size: 36px;
+    font-weight: bold;
+    margin-top:30%;
+    float:left;
+    margin-left: 1%;
+}
+
+.poster3 .bottom-middle { 
+
+    font-size: 18px;
+    
+    margin-top:29%;
+    float:left;
+    margin-left: 20%; 
+  }
+
+  
+.poster3 .bottom-right {
+
+    font-size: 16px;
+    margin-top:-17%;
+    float: right;
+    margin-left: 60%;
+    margin-right: 15%; 
+  }
+
+.poster3 .top-gray {
+    height: 4vw;
+    width: 4vw;
+    background: gray;
+    position: absolute;
+    right: 40vw;
+    top: 10vh;
+}
+
+.poster3 .bottom-gray {
+    height: 4vw;
+    width: 4vw;
+    background: gray;
+    position: absolute;
+    right: 40vw;
+    top: 50vh;
+}
+
+.poster3 .blue {
+    height: 4vw;
+    width: 4vw;
+    background: #30508C;
+    position: absolute;
+    bottom: 60vh;
+    left: 30vw;
+}
+
+.poster3 .black-left {
+    height: 4vw;
+    width: 4vw;
+    background: black;
+    position: absolute;
+    bottom: 60vh;
+    left: 36vw;
+}
+
+
+.poster3 .red {
+    height: 4vw;
+    width: 4vw;
+    background: #B72634;
+    position: absolute;
+    bottom: 60vh;
+    right: 40vw;
+}
+
+
+.poster3 .black-right {
+    height: 4vw;
+    width: 4vw;
+    background: black;
+    position: absolute;
+    bottom: 60vh;
+    right: 29vw;
+}
+
+
+.poster3 .yellow {
+    height: 4vw;
+    width: 4vw;
+    background: #D2B746;
+    position: absolute;
+    bottom: 60vh;
+    right: 15vw;
+}
