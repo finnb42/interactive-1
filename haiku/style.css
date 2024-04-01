@@ -1,0 +1,26 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #161616;
+    color: white;
+
+}
+
+.note {
+    text-align: right;
+    position: fixed;
+    top: 0;
+    right: 1em;
+    background-color:;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+#haiku {
+    font-weight: bold;
+    font-size: 180px; 
+    letter-spacing: -0.01em;
+    line-height: 1.5em; 
+    padding: 1em ;
+    text-align: left; 
+    display: inline-block;
+}
