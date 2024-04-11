@@ -2,8 +2,9 @@ let mouseX = 0;
 let mouseY = 0;
 
 function updateInfo() {
+    //mouse position
     let text;
-
+    
     if (mouseX < window.innerWidth / 2) {
         text = "gently";
     } else {
@@ -24,8 +25,8 @@ document.addEventListener('mousemove', (event) => {
 });
 
 function updateFontWeight() {
-    // Calculate the font weight based on the scroll position
-    // Assuming a maximum weight of 900 and minimum of 100
+    //scroll position
+    // max weight of 900 and min of 100
     let scrollPercentage = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
     let weight = Math.max(900 - scrollPercentage * 800, 100); // Ensures weight stays within 100 to 900
 
@@ -40,5 +41,5 @@ document.addEventListener('mousemove', (event) => {
 });
 
 window.addEventListener('scroll', () => {
-    updateFontWeight(); // Update the font weight independently of other interactions
+    updateFontWeight(); 
 });

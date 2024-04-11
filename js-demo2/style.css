@@ -1,0 +1,14 @@
+body {
+
+}
+.rect {
+float: left;
+width: 20px;
+height: 20px;
+background-color: #000000;
+margin:	10px;
+}
+
+.clear { 
+clear:both;
+ }
