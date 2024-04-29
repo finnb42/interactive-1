@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Font Family */
+.december div,
+.december p {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* Specific Styles */
+.december .coll,
+.december .collm {
+    width: 25vw;
+    padding-left: 1vw;
+    font-weight: 500;
+    font-size: 3.5vw;
+    background-color: #f8f7f3;
+    position: absolute;
+}
+
+.december .collm {
+    width: 58vw;
+    left: 28vw;
+}
+
+.december .colrm {
+    position: absolute;
+    left: 52vw;
+    font-weight: 500;
+    font-size: 3.5vw;
+}
+
+.december .colr {
+    position: absolute;
+    padding-right: 4vw;
+    left: 75vw;
+    font-weight: 500;
+    font-size: 3.5vw;
+    background-color: #f8f7f3;
+}
+
+.december .smallcoll {
+    position: absolute;
+    top: 9vh;
+    left: 65vw;
+    text-align: right;
+}
+
+.december .smallcolr {
+    position: absolute;
+    top: 9vh;
+    left: 76vw;
+    text-align: left;
+}
+
+/* Text Color Styles */
+.december p.blue1,
+.december p.blue2,
+.december p.blue3 {
+    color: #2e92d0;
+}
+
+.december p.yellow1,
+.december p.yellow2 {
+    color: #dcab32;
+}
+.orange1 {
+    text-align: right;
+}
+
+
+.december p.orange1,
+.december p.orange2,
+.december p.orange3 {
+    color: #e65e20;
+   
+}
+
+.december p.green1,
+.december p.green2 {
+    color: #4fa963;
+
+}
+.green1 {
+    text-align: right;
+}
+
+.black1 {
+    text-align: right;
+}
+.blue1{
+text-align: right; 
+}
+.blue2{
+text-align: right; 
+}
+.yellow1{
+text-align: right; 
+}
+
+/* Margin-top to move down other divs */
+.december div:not(.smallcoll):not(.smallcolr) {
+    margin-top: 500px; /* Adjust as needed */
+}

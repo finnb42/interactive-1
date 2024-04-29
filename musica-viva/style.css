@@ -272,77 +272,113 @@ background color: #D2D1CD;
 
 /* styles for poster4 */
 
-.poster4 { 
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  text-align: left;
- }
-.poster4 .topleft {
-    font-size: 12px;
-    line-height: 1em;
-    position: absolute;
-    left: 65vw;
-    text-align: left;
+/* General Reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
-.poster4 .topright {
-    font-size: 13px;
-    line-height: 1em;
+
+/* Font Family */
+.december div,
+.december p {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* Specific Styles */
+.december .coll,
+.december .collm {
+    width: 25vw;
+    padding-left: 1vw;
+    font-weight: 500;
+    font-size: 3.5vw;
+    background-color: #f8f7f3;
     position: absolute;
+}
+
+.december .collm {
+    width: 58vw;
+    left: 28vw;
+}
+
+.december .colrm {
+    position: absolute;
+    left: 52vw;
+    font-weight: 500;
+    font-size: 3.5vw;
+}
+
+.december .colr {
+    position: absolute;
+    padding-right: 4vw;
     left: 75vw;
+    font-weight: 500;
+    font-size: 3.5vw;
+    background-color: #f8f7f3;
+}
+
+.december .smallcoll {
+    position: absolute;
+    top: 9vh;
+    left: 65vw;
+    text-align: right;
+}
+
+.december .smallcolr {
+    position: absolute;
+    top: 9vh;
+    left: 76vw;
     text-align: left;
 }
-/*.poster4 .col-l .col-2
- {
-  background-color: blue;
-  width: 25vw;
-  font-size: 5vw;
-  float: left;
-}*/
 
-.poster4 .cols {
-  background: rgba(255,0,0,0.2);
-  position: absolute;
+/* Text Color Styles */
+.december p.blue1,
+.december p.blue2,
+.december p.blue3 {
+    color: #2e92d0;
+}
 
+.december p.yellow1,
+.december p.yellow2 {
+    color: #dcab32;
+}
+.orange1 {
+    text-align: right;
 }
 
 
-.poster4 .col-1 {
-  width: 25vw; 
+.december p.orange1,
+.december p.orange2,
+.december p.orange3 {
+    color: #e65e20;
+   
 }
 
-.poster4 p.black{ 
-  text-align: right;
- }
-
-.poster4 p.blue { 
-  color: #2897BF;
-  text-align: right;
-
- }
-
-.poster4 p.blue1{ 
-  color: #2897BF;
-  text-align: left;
-  margin-left: 45%;
-
- }
-
-.poster4 .col-2 {
-  width: 50%;
-  left: 25%;
+.december p.green1,
+.december p.green2 {
+    color: #4fa963;
 
 }
-.poster4 .col-3 {
-  width: 50%;
-  left: 25%;
-  text-align: right;
-
-
+.green1 {
+    text-align: right;
 }
-.poster4 .col-4 {
-  width: 25%;
-  left: 75%;
 
+.black1 {
+    text-align: right;
 }
+.blue1{
+text-align: right; 
+}
+.blue2{
+text-align: right; 
+}
+.yellow1{
+text-align: right; 
+}
+
+/* Margin-top to move down other divs */
+.december div:not(.smallcoll):not(.smallcolr) {
+    margin-top: 500px; /* Adjust as needed */
+}
+
 
