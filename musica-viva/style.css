@@ -277,6 +277,7 @@ background color: #D2D1CD;
     margin: 0;
     border: 0;
     padding: 0;
+    background-color: #f8f7f3;
 }
 
 /* Font Family */
@@ -314,7 +315,7 @@ background color: #D2D1CD;
     left: 75vw;
     font-weight: 500;
     font-size: 3.5vw;
-    background-color: #f8f7f3;
+    
 }
 
 .december .smallcoll {
@@ -322,6 +323,7 @@ background color: #D2D1CD;
     top: 9vh;
     left: 65vw;
     text-align: right;
+    font-size: 16px;
 }
 
 .december .smallcolr {
@@ -329,6 +331,7 @@ background color: #D2D1CD;
     top: 9vh;
     left: 76vw;
     text-align: left;
+    font-size: 16px;
 }
 
 /* Text Color Styles */
@@ -372,10 +375,27 @@ text-align: right;
 .blue2{
 text-align: right; 
 }
+.blue3{
+text-align: left; 
+}
 .yellow1{
 text-align: right; 
 }
-
+.yellow2{
+text-align: left; 
+}
+.black2{
+text-align: left; 
+}
+.orange2 {
+    text-align: left;
+}
+.orange3 {
+    text-align: left;
+}
+.green2 {
+    text-align: left;
+}
 /* Margin-top to move down other divs */
 .december div:not(.smallcoll):not(.smallcolr) {
     margin-top: 500px; /* Adjust as needed */
